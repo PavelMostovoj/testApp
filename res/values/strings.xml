@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">testApp</string>
+
+    <string name="tab_1">select</string>
+    <string name="tab_2">insert</string>
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+
+    <string name="id">ID</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+
+    <string name="insert">INSERT</string>
+    <string name="read">READ</string>
+
+
+</resources>

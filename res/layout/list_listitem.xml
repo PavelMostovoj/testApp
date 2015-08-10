@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/id" style="@style/styleTextViewH4" />
+        <TextView android:id="@+id/TV_id"  style="@style/styleTextViewH3"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/first_name" style="@style/styleTextViewH4"/>
+        <TextView android:id="@+id/TV_firstName"  style="@style/styleTextViewH3"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/last_name" style="@style/styleTextViewH4"/>
+        <TextView android:id="@+id/TV_last_name"  style="@style/styleTextViewH3"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/phone" style="@style/styleTextViewH4"/>
+        <TextView android:id="@+id/TV_phone" style="@style/styleTextViewH3"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/email" style="@style/styleTextViewH4"/>
+        <TextView android:id="@+id/TV_email"  style="@style/styleTextViewH3"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
